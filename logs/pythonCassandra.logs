@@ -1,0 +1,291 @@
+2018-12-20 14:06:01,259 - logs/pythonCassandra.logs:15 - WARNING - logs/pythonCassandra.logs
+2018-12-20 14:09:42,215 - logs/pythonCassandra.logs:15 - WARNING - logs/pythonCassandra.logs
+2018-12-20 14:14:49,494 - logs/pythonCassandra.logs:15 - WARNING - logs/pythonCassandra.logs
+2018-12-20 14:20:48,604 - logs/pythonCassandra.logs:15 - WARNING - logs/pythonCassandra.logs
+2018-12-20 14:20:50,238 - logs/pythonCassandra.logs:80 - WARNING - Attempted:CREATE INDEX IF NOT EXISTS transaction_transaction_year_idx ON transaction (transaction_year);
+2018-12-20 14:20:50,240 - logs/pythonCassandra.logs:80 - WARNING - Attempted:CREATE INDEX IF NOT EXISTS transaction_transaction_month_idx ON transaction (transaction_month);
+2018-12-20 14:20:50,242 - logs/pythonCassandra.logs:80 - WARNING - Attempted:CREATE INDEX IF NOT EXISTS transaction_transaction_day_idx ON transaction (transaction_day);
+2018-12-20 14:20:50,243 - logs/pythonCassandra.logs:80 - WARNING - Attempted:CREATE INDEX IF NOT EXISTS transaction_block_date_idx ON transaction (block_date);
+2018-12-20 14:20:50,244 - logs/pythonCassandra.logs:80 - WARNING - Attempted:CREATE INDEX IF NOT EXISTS transaction_transaction_timestamp_idx ON transaction (transaction_timestamp);
+2018-12-20 14:20:50,246 - logs/pythonCassandra.logs:80 - WARNING - Attempted:CREATE INDEX IF NOT EXISTS transaction_from_addr_idx ON transaction (from_addr);
+2018-12-20 14:20:50,248 - logs/pythonCassandra.logs:80 - WARNING - Attempted:CREATE INDEX IF NOT EXISTS transaction_to_addr_idx ON transaction (to_addr);
+2018-12-20 14:20:50,249 - logs/pythonCassandra.logs:80 - WARNING - Attempted:CREATE INDEX IF NOT EXISTS block_block_year_idx ON block (block_year);
+2018-12-20 14:20:50,251 - logs/pythonCassandra.logs:80 - WARNING - Attempted:CREATE INDEX IF NOT EXISTS block_block_month_idx ON block (block_month);
+2018-12-20 14:20:50,252 - logs/pythonCassandra.logs:80 - WARNING - Attempted:CREATE INDEX IF NOT EXISTS transaction_contract_addr_idx ON transaction (contract_addr);
+2018-12-20 14:20:50,252 - logs/pythonCassandra.logs:80 - WARNING - Attempted:CREATE INDEX IF NOT EXISTS block_block_day_idx ON block (block_day);
+2018-12-20 14:20:50,254 - logs/pythonCassandra.logs:82 - WARNING - transaction Table & indexes Created/Checked !!!
+2018-12-20 14:20:50,260 - logs/pythonCassandra.logs:80 - WARNING - Attempted:CREATE INDEX IF NOT EXISTS block_block_date_idx ON block (block_date);
+2018-12-20 14:20:50,265 - logs/pythonCassandra.logs:80 - WARNING - Attempted:CREATE INDEX IF NOT EXISTS block_miner_address_idx ON block (miner_address);
+2018-12-20 14:20:50,266 - logs/pythonCassandra.logs:82 - WARNING - block Table & indexes Created/Checked !!!
+2018-12-20 16:03:08,411 - logs/pythonCassandra.logs:15 - WARNING - logs/pythonCassandra.logs
+2018-12-20 16:03:15,454 - logs/pythonCassandra.logs:80 - WARNING - Attempted:CREATE INDEX IF NOT EXISTS transaction_transaction_year_idx ON transaction (transaction_year);
+2018-12-20 16:03:15,941 - logs/pythonCassandra.logs:80 - WARNING - Attempted:CREATE INDEX IF NOT EXISTS block_block_year_idx ON block (block_year);
+2018-12-20 16:03:16,431 - logs/pythonCassandra.logs:80 - WARNING - Attempted:CREATE INDEX IF NOT EXISTS transaction_transaction_month_idx ON transaction (transaction_month);
+2018-12-20 16:03:16,938 - logs/pythonCassandra.logs:80 - WARNING - Attempted:CREATE INDEX IF NOT EXISTS block_block_month_idx ON block (block_month);
+2018-12-20 16:03:17,359 - logs/pythonCassandra.logs:80 - WARNING - Attempted:CREATE INDEX IF NOT EXISTS transaction_transaction_day_idx ON transaction (transaction_day);
+2018-12-20 16:03:17,804 - logs/pythonCassandra.logs:80 - WARNING - Attempted:CREATE INDEX IF NOT EXISTS block_block_day_idx ON block (block_day);
+2018-12-20 16:03:18,299 - logs/pythonCassandra.logs:80 - WARNING - Attempted:CREATE INDEX IF NOT EXISTS transaction_block_date_idx ON transaction (block_date);
+2018-12-20 16:03:18,730 - logs/pythonCassandra.logs:80 - WARNING - Attempted:CREATE INDEX IF NOT EXISTS block_block_date_idx ON block (block_date);
+2018-12-20 16:03:19,273 - logs/pythonCassandra.logs:80 - WARNING - Attempted:CREATE INDEX IF NOT EXISTS transaction_transaction_timestamp_idx ON transaction (transaction_timestamp);
+2018-12-20 16:03:19,770 - logs/pythonCassandra.logs:80 - WARNING - Attempted:CREATE INDEX IF NOT EXISTS block_miner_address_idx ON block (miner_address);
+2018-12-20 16:03:19,771 - logs/pythonCassandra.logs:82 - WARNING - block Table & indexes Created/Checked !!!
+2018-12-20 16:03:20,309 - logs/pythonCassandra.logs:80 - WARNING - Attempted:CREATE INDEX IF NOT EXISTS transaction_from_addr_idx ON transaction (from_addr);
+2018-12-20 16:03:20,885 - logs/pythonCassandra.logs:80 - WARNING - Attempted:CREATE INDEX IF NOT EXISTS transaction_to_addr_idx ON transaction (to_addr);
+2018-12-20 16:03:21,458 - logs/pythonCassandra.logs:80 - WARNING - Attempted:CREATE INDEX IF NOT EXISTS transaction_contract_addr_idx ON transaction (contract_addr);
+2018-12-20 16:03:21,458 - logs/pythonCassandra.logs:82 - WARNING - transaction Table & indexes Created/Checked !!!
+2018-12-20 16:05:21,986 - logs/pythonCassandra.logs:15 - WARNING - logs/pythonCassandra.logs
+2018-12-20 16:05:34,269 - logs/pythonCassandra.logs:80 - WARNING - Attempted:CREATE INDEX IF NOT EXISTS block_block_year_idx ON block (block_year);
+2018-12-20 16:05:34,272 - logs/pythonCassandra.logs:80 - WARNING - Attempted:CREATE INDEX IF NOT EXISTS block_block_month_idx ON block (block_month);
+2018-12-20 16:05:34,283 - logs/pythonCassandra.logs:80 - WARNING - Attempted:CREATE INDEX IF NOT EXISTS block_block_day_idx ON block (block_day);
+2018-12-20 16:05:34,297 - logs/pythonCassandra.logs:80 - WARNING - Attempted:CREATE INDEX IF NOT EXISTS block_block_date_idx ON block (block_date);
+2018-12-20 16:05:34,299 - logs/pythonCassandra.logs:80 - WARNING - Attempted:CREATE INDEX IF NOT EXISTS transaction_transaction_year_idx ON transaction (transaction_year);
+2018-12-20 16:05:34,301 - logs/pythonCassandra.logs:80 - WARNING - Attempted:CREATE INDEX IF NOT EXISTS block_miner_address_idx ON block (miner_address);
+2018-12-20 16:05:34,302 - logs/pythonCassandra.logs:82 - WARNING - block Table & indexes Created/Checked !!!
+2018-12-20 16:05:34,313 - logs/pythonCassandra.logs:80 - WARNING - Attempted:CREATE INDEX IF NOT EXISTS transaction_transaction_month_idx ON transaction (transaction_month);
+2018-12-20 16:05:34,316 - logs/pythonCassandra.logs:80 - WARNING - Attempted:CREATE INDEX IF NOT EXISTS transaction_transaction_day_idx ON transaction (transaction_day);
+2018-12-20 16:05:34,319 - logs/pythonCassandra.logs:80 - WARNING - Attempted:CREATE INDEX IF NOT EXISTS transaction_block_date_idx ON transaction (block_date);
+2018-12-20 16:05:34,323 - logs/pythonCassandra.logs:80 - WARNING - Attempted:CREATE INDEX IF NOT EXISTS transaction_transaction_timestamp_idx ON transaction (transaction_timestamp);
+2018-12-20 16:05:34,327 - logs/pythonCassandra.logs:80 - WARNING - Attempted:CREATE INDEX IF NOT EXISTS transaction_from_addr_idx ON transaction (from_addr);
+2018-12-20 16:05:34,336 - logs/pythonCassandra.logs:80 - WARNING - Attempted:CREATE INDEX IF NOT EXISTS transaction_to_addr_idx ON transaction (to_addr);
+2018-12-20 16:05:34,360 - logs/pythonCassandra.logs:80 - WARNING - Attempted:CREATE INDEX IF NOT EXISTS transaction_contract_addr_idx ON transaction (contract_addr);
+2018-12-20 16:05:34,361 - logs/pythonCassandra.logs:82 - WARNING - transaction Table & indexes Created/Checked !!!
+2018-12-20 16:36:51,991 - logs/pythonCassandra.logs:15 - WARNING - logs/pythonCassandra.logs
+2018-12-20 16:36:56,034 - logs/pythonCassandra.logs:80 - WARNING - Attempted:CREATE INDEX IF NOT EXISTS transaction_transaction_year_idx ON transaction (transaction_year);
+2018-12-20 16:36:56,035 - logs/pythonCassandra.logs:80 - WARNING - Attempted:CREATE INDEX IF NOT EXISTS block_block_year_idx ON block (block_year);
+2018-12-20 16:36:56,039 - logs/pythonCassandra.logs:80 - WARNING - Attempted:CREATE INDEX IF NOT EXISTS transaction_transaction_month_idx ON transaction (transaction_month);
+2018-12-20 16:36:56,040 - logs/pythonCassandra.logs:80 - WARNING - Attempted:CREATE INDEX IF NOT EXISTS block_block_month_idx ON block (block_month);
+2018-12-20 16:36:56,045 - logs/pythonCassandra.logs:80 - WARNING - Attempted:CREATE INDEX IF NOT EXISTS transaction_transaction_day_idx ON transaction (transaction_day);
+2018-12-20 16:36:56,046 - logs/pythonCassandra.logs:80 - WARNING - Attempted:CREATE INDEX IF NOT EXISTS block_block_day_idx ON block (block_day);
+2018-12-20 16:36:56,049 - logs/pythonCassandra.logs:80 - WARNING - Attempted:CREATE INDEX IF NOT EXISTS block_block_date_idx ON block (block_date);
+2018-12-20 16:36:56,049 - logs/pythonCassandra.logs:80 - WARNING - Attempted:CREATE INDEX IF NOT EXISTS transaction_block_date_idx ON transaction (block_date);
+2018-12-20 16:36:56,055 - logs/pythonCassandra.logs:80 - WARNING - Attempted:CREATE INDEX IF NOT EXISTS block_miner_address_idx ON block (miner_address);
+2018-12-20 16:36:56,059 - logs/pythonCassandra.logs:82 - WARNING - block Table & indexes Created/Checked !!!
+2018-12-20 16:36:56,060 - logs/pythonCassandra.logs:80 - WARNING - Attempted:CREATE INDEX IF NOT EXISTS transaction_transaction_timestamp_idx ON transaction (transaction_timestamp);
+2018-12-20 16:36:56,074 - logs/pythonCassandra.logs:80 - WARNING - Attempted:CREATE INDEX IF NOT EXISTS transaction_from_addr_idx ON transaction (from_addr);
+2018-12-20 16:36:56,078 - logs/pythonCassandra.logs:80 - WARNING - Attempted:CREATE INDEX IF NOT EXISTS transaction_to_addr_idx ON transaction (to_addr);
+2018-12-20 16:36:56,093 - logs/pythonCassandra.logs:80 - WARNING - Attempted:CREATE INDEX IF NOT EXISTS transaction_contract_addr_idx ON transaction (contract_addr);
+2018-12-20 16:36:56,095 - logs/pythonCassandra.logs:82 - WARNING - transaction Table & indexes Created/Checked !!!
+2018-12-20 16:57:57,294 - logs/pythonCassandra.logs:15 - WARNING - logs/pythonCassandra.logs
+2018-12-20 16:57:59,041 - logs/pythonCassandra.logs:80 - WARNING - Attempted:CREATE INDEX IF NOT EXISTS block_block_year_idx ON block (block_year);
+2018-12-20 16:57:59,043 - logs/pythonCassandra.logs:80 - WARNING - Attempted:CREATE INDEX IF NOT EXISTS transaction_transaction_year_idx ON transaction (transaction_year);
+2018-12-20 16:57:59,047 - logs/pythonCassandra.logs:80 - WARNING - Attempted:CREATE INDEX IF NOT EXISTS block_block_month_idx ON block (block_month);
+2018-12-20 16:57:59,052 - logs/pythonCassandra.logs:80 - WARNING - Attempted:CREATE INDEX IF NOT EXISTS transaction_transaction_month_idx ON transaction (transaction_month);
+2018-12-20 16:57:59,059 - logs/pythonCassandra.logs:80 - WARNING - Attempted:CREATE INDEX IF NOT EXISTS block_block_day_idx ON block (block_day);
+2018-12-20 16:57:59,060 - logs/pythonCassandra.logs:80 - WARNING - Attempted:CREATE INDEX IF NOT EXISTS transaction_transaction_day_idx ON transaction (transaction_day);
+2018-12-20 16:57:59,062 - logs/pythonCassandra.logs:80 - WARNING - Attempted:CREATE INDEX IF NOT EXISTS block_block_date_idx ON block (block_date);
+2018-12-20 16:57:59,063 - logs/pythonCassandra.logs:80 - WARNING - Attempted:CREATE INDEX IF NOT EXISTS transaction_block_date_idx ON transaction (block_date);
+2018-12-20 16:57:59,064 - logs/pythonCassandra.logs:80 - WARNING - Attempted:CREATE INDEX IF NOT EXISTS block_miner_address_idx ON block (miner_address);
+2018-12-20 16:57:59,065 - logs/pythonCassandra.logs:82 - WARNING - block Table & indexes Created/Checked !!!
+2018-12-20 16:57:59,066 - logs/pythonCassandra.logs:80 - WARNING - Attempted:CREATE INDEX IF NOT EXISTS transaction_transaction_timestamp_idx ON transaction (transaction_timestamp);
+2018-12-20 16:57:59,069 - logs/pythonCassandra.logs:80 - WARNING - Attempted:CREATE INDEX IF NOT EXISTS transaction_from_addr_idx ON transaction (from_addr);
+2018-12-20 16:57:59,077 - logs/pythonCassandra.logs:80 - WARNING - Attempted:CREATE INDEX IF NOT EXISTS transaction_to_addr_idx ON transaction (to_addr);
+2018-12-20 16:57:59,080 - logs/pythonCassandra.logs:80 - WARNING - Attempted:CREATE INDEX IF NOT EXISTS transaction_contract_addr_idx ON transaction (contract_addr);
+2018-12-20 16:57:59,081 - logs/pythonCassandra.logs:82 - WARNING - transaction Table & indexes Created/Checked !!!
+2018-12-20 17:00:11,621 - logs/pythonCassandra.logs:15 - WARNING - logs/pythonCassandra.logs
+2018-12-20 17:00:14,124 - logs/pythonCassandra.logs:80 - WARNING - Attempted:CREATE INDEX IF NOT EXISTS transaction_transaction_year_idx ON transaction (transaction_year);
+2018-12-20 17:00:14,128 - logs/pythonCassandra.logs:80 - WARNING - Attempted:CREATE INDEX IF NOT EXISTS transaction_transaction_month_idx ON transaction (transaction_month);
+2018-12-20 17:00:14,129 - logs/pythonCassandra.logs:80 - WARNING - Attempted:CREATE INDEX IF NOT EXISTS block_block_year_idx ON block (block_year);
+2018-12-20 17:00:14,132 - logs/pythonCassandra.logs:80 - WARNING - Attempted:CREATE INDEX IF NOT EXISTS transaction_transaction_day_idx ON transaction (transaction_day);
+2018-12-20 17:00:14,133 - logs/pythonCassandra.logs:80 - WARNING - Attempted:CREATE INDEX IF NOT EXISTS block_block_month_idx ON block (block_month);
+2018-12-20 17:00:14,136 - logs/pythonCassandra.logs:80 - WARNING - Attempted:CREATE INDEX IF NOT EXISTS transaction_block_date_idx ON transaction (block_date);
+2018-12-20 17:00:14,138 - logs/pythonCassandra.logs:80 - WARNING - Attempted:CREATE INDEX IF NOT EXISTS block_block_day_idx ON block (block_day);
+2018-12-20 17:00:14,140 - logs/pythonCassandra.logs:80 - WARNING - Attempted:CREATE INDEX IF NOT EXISTS transaction_transaction_timestamp_idx ON transaction (transaction_timestamp);
+2018-12-20 17:00:14,142 - logs/pythonCassandra.logs:80 - WARNING - Attempted:CREATE INDEX IF NOT EXISTS block_block_date_idx ON block (block_date);
+2018-12-20 17:00:14,144 - logs/pythonCassandra.logs:80 - WARNING - Attempted:CREATE INDEX IF NOT EXISTS transaction_from_addr_idx ON transaction (from_addr);
+2018-12-20 17:00:14,146 - logs/pythonCassandra.logs:80 - WARNING - Attempted:CREATE INDEX IF NOT EXISTS block_miner_address_idx ON block (miner_address);
+2018-12-20 17:00:14,146 - logs/pythonCassandra.logs:82 - WARNING - block Table & indexes Created/Checked !!!
+2018-12-20 17:00:14,149 - logs/pythonCassandra.logs:80 - WARNING - Attempted:CREATE INDEX IF NOT EXISTS transaction_to_addr_idx ON transaction (to_addr);
+2018-12-20 17:00:14,154 - logs/pythonCassandra.logs:80 - WARNING - Attempted:CREATE INDEX IF NOT EXISTS transaction_contract_addr_idx ON transaction (contract_addr);
+2018-12-20 17:00:14,154 - logs/pythonCassandra.logs:82 - WARNING - transaction Table & indexes Created/Checked !!!
+2018-12-20 18:13:39,643 - logs/pythonCassandra.logs:15 - WARNING - logs/pythonCassandra.logs
+2018-12-20 18:13:46,584 - logs/pythonCassandra.logs:80 - WARNING - Attempted:CREATE INDEX IF NOT EXISTS transaction_transaction_year_idx ON transaction (transaction_year);
+2018-12-20 18:13:46,587 - logs/pythonCassandra.logs:80 - WARNING - Attempted:CREATE INDEX IF NOT EXISTS block_block_year_idx ON block (block_year);
+2018-12-20 18:13:46,588 - logs/pythonCassandra.logs:80 - WARNING - Attempted:CREATE INDEX IF NOT EXISTS transaction_transaction_month_idx ON transaction (transaction_month);
+2018-12-20 18:13:46,590 - logs/pythonCassandra.logs:80 - WARNING - Attempted:CREATE INDEX IF NOT EXISTS block_block_month_idx ON block (block_month);
+2018-12-20 18:13:46,591 - logs/pythonCassandra.logs:80 - WARNING - Attempted:CREATE INDEX IF NOT EXISTS transaction_transaction_day_idx ON transaction (transaction_day);
+2018-12-20 18:13:46,592 - logs/pythonCassandra.logs:80 - WARNING - Attempted:CREATE INDEX IF NOT EXISTS transaction_block_date_idx ON transaction (block_date);
+2018-12-20 18:13:46,593 - logs/pythonCassandra.logs:80 - WARNING - Attempted:CREATE INDEX IF NOT EXISTS block_block_day_idx ON block (block_day);
+2018-12-20 18:13:46,595 - logs/pythonCassandra.logs:80 - WARNING - Attempted:CREATE INDEX IF NOT EXISTS transaction_transaction_timestamp_idx ON transaction (transaction_timestamp);
+2018-12-20 18:13:46,596 - logs/pythonCassandra.logs:80 - WARNING - Attempted:CREATE INDEX IF NOT EXISTS block_block_date_idx ON block (block_date);
+2018-12-20 18:13:46,597 - logs/pythonCassandra.logs:80 - WARNING - Attempted:CREATE INDEX IF NOT EXISTS transaction_from_addr_idx ON transaction (from_addr);
+2018-12-20 18:13:46,599 - logs/pythonCassandra.logs:80 - WARNING - Attempted:CREATE INDEX IF NOT EXISTS block_miner_address_idx ON block (miner_address);
+2018-12-20 18:13:46,600 - logs/pythonCassandra.logs:80 - WARNING - Attempted:CREATE INDEX IF NOT EXISTS transaction_to_addr_idx ON transaction (to_addr);
+2018-12-20 18:13:46,600 - logs/pythonCassandra.logs:82 - WARNING - block Table & indexes Created/Checked !!!
+2018-12-20 18:13:46,602 - logs/pythonCassandra.logs:80 - WARNING - Attempted:CREATE INDEX IF NOT EXISTS transaction_contract_addr_idx ON transaction (contract_addr);
+2018-12-20 18:13:46,603 - logs/pythonCassandra.logs:82 - WARNING - transaction Table & indexes Created/Checked !!!
+2018-12-20 18:17:59,934 - logs/pythonCassandra.logs:15 - WARNING - logs/pythonCassandra.logs
+2018-12-20 18:18:03,676 - logs/pythonCassandra.logs:80 - WARNING - Attempted:CREATE INDEX IF NOT EXISTS block_block_year_idx ON block (block_year);
+2018-12-20 18:18:03,677 - logs/pythonCassandra.logs:80 - WARNING - Attempted:CREATE INDEX IF NOT EXISTS transaction_transaction_year_idx ON transaction (transaction_year);
+2018-12-20 18:18:03,680 - logs/pythonCassandra.logs:80 - WARNING - Attempted:CREATE INDEX IF NOT EXISTS block_block_month_idx ON block (block_month);
+2018-12-20 18:18:03,680 - logs/pythonCassandra.logs:80 - WARNING - Attempted:CREATE INDEX IF NOT EXISTS transaction_transaction_month_idx ON transaction (transaction_month);
+2018-12-20 18:18:03,683 - logs/pythonCassandra.logs:80 - WARNING - Attempted:CREATE INDEX IF NOT EXISTS block_block_day_idx ON block (block_day);
+2018-12-20 18:18:03,684 - logs/pythonCassandra.logs:80 - WARNING - Attempted:CREATE INDEX IF NOT EXISTS transaction_transaction_day_idx ON transaction (transaction_day);
+2018-12-20 18:18:03,686 - logs/pythonCassandra.logs:80 - WARNING - Attempted:CREATE INDEX IF NOT EXISTS block_block_date_idx ON block (block_date);
+2018-12-20 18:18:03,688 - logs/pythonCassandra.logs:80 - WARNING - Attempted:CREATE INDEX IF NOT EXISTS transaction_block_date_idx ON transaction (block_date);
+2018-12-20 18:18:03,690 - logs/pythonCassandra.logs:80 - WARNING - Attempted:CREATE INDEX IF NOT EXISTS block_miner_address_idx ON block (miner_address);
+2018-12-20 18:18:03,691 - logs/pythonCassandra.logs:82 - WARNING - block Table & indexes Created/Checked !!!
+2018-12-20 18:18:03,692 - logs/pythonCassandra.logs:80 - WARNING - Attempted:CREATE INDEX IF NOT EXISTS transaction_transaction_timestamp_idx ON transaction (transaction_timestamp);
+2018-12-20 18:18:03,697 - logs/pythonCassandra.logs:80 - WARNING - Attempted:CREATE INDEX IF NOT EXISTS transaction_from_addr_idx ON transaction (from_addr);
+2018-12-20 18:18:03,701 - logs/pythonCassandra.logs:80 - WARNING - Attempted:CREATE INDEX IF NOT EXISTS transaction_to_addr_idx ON transaction (to_addr);
+2018-12-20 18:18:03,713 - logs/pythonCassandra.logs:80 - WARNING - Attempted:CREATE INDEX IF NOT EXISTS transaction_contract_addr_idx ON transaction (contract_addr);
+2018-12-20 18:18:03,714 - logs/pythonCassandra.logs:82 - WARNING - transaction Table & indexes Created/Checked !!!
+2018-12-20 18:31:17,326 - logs/pythonCassandra.logs:15 - WARNING - logs/pythonCassandra.logs
+2018-12-20 18:31:20,180 - logs/pythonCassandra.logs:80 - WARNING - Attempted:CREATE INDEX IF NOT EXISTS transaction_transaction_year_idx ON transaction (transaction_year);
+2018-12-20 18:31:20,187 - logs/pythonCassandra.logs:80 - WARNING - Attempted:CREATE INDEX IF NOT EXISTS transaction_transaction_month_idx ON transaction (transaction_month);
+2018-12-20 18:31:20,193 - logs/pythonCassandra.logs:80 - WARNING - Attempted:CREATE INDEX IF NOT EXISTS block_block_year_idx ON block (block_year);
+2018-12-20 18:31:20,196 - logs/pythonCassandra.logs:80 - WARNING - Attempted:CREATE INDEX IF NOT EXISTS transaction_transaction_day_idx ON transaction (transaction_day);
+2018-12-20 18:31:20,198 - logs/pythonCassandra.logs:80 - WARNING - Attempted:CREATE INDEX IF NOT EXISTS block_block_month_idx ON block (block_month);
+2018-12-20 18:31:20,201 - logs/pythonCassandra.logs:80 - WARNING - Attempted:CREATE INDEX IF NOT EXISTS transaction_block_date_idx ON transaction (block_date);
+2018-12-20 18:31:20,203 - logs/pythonCassandra.logs:80 - WARNING - Attempted:CREATE INDEX IF NOT EXISTS block_block_day_idx ON block (block_day);
+2018-12-20 18:31:20,208 - logs/pythonCassandra.logs:80 - WARNING - Attempted:CREATE INDEX IF NOT EXISTS transaction_transaction_timestamp_idx ON transaction (transaction_timestamp);
+2018-12-20 18:31:20,211 - logs/pythonCassandra.logs:80 - WARNING - Attempted:CREATE INDEX IF NOT EXISTS block_block_date_idx ON block (block_date);
+2018-12-20 18:31:20,212 - logs/pythonCassandra.logs:80 - WARNING - Attempted:CREATE INDEX IF NOT EXISTS transaction_from_addr_idx ON transaction (from_addr);
+2018-12-20 18:31:20,215 - logs/pythonCassandra.logs:80 - WARNING - Attempted:CREATE INDEX IF NOT EXISTS block_miner_address_idx ON block (miner_address);
+2018-12-20 18:31:20,216 - logs/pythonCassandra.logs:80 - WARNING - Attempted:CREATE INDEX IF NOT EXISTS transaction_to_addr_idx ON transaction (to_addr);
+2018-12-20 18:31:20,218 - logs/pythonCassandra.logs:82 - WARNING - block Table & indexes Created/Checked !!!
+2018-12-20 18:31:20,222 - logs/pythonCassandra.logs:80 - WARNING - Attempted:CREATE INDEX IF NOT EXISTS transaction_contract_addr_idx ON transaction (contract_addr);
+2018-12-20 18:31:20,223 - logs/pythonCassandra.logs:82 - WARNING - transaction Table & indexes Created/Checked !!!
+2018-12-20 19:08:45,754 - logs/pythonCassandra.logs:15 - WARNING - logs/pythonCassandra.logs
+2018-12-20 19:08:49,824 - logs/pythonCassandra.logs:80 - WARNING - Attempted:CREATE INDEX IF NOT EXISTS block_block_year_idx ON block (block_year);
+2018-12-20 19:08:49,840 - logs/pythonCassandra.logs:80 - WARNING - Attempted:CREATE INDEX IF NOT EXISTS block_block_month_idx ON block (block_month);
+2018-12-20 19:08:49,850 - logs/pythonCassandra.logs:80 - WARNING - Attempted:CREATE INDEX IF NOT EXISTS block_block_day_idx ON block (block_day);
+2018-12-20 19:08:49,850 - logs/pythonCassandra.logs:80 - WARNING - Attempted:CREATE INDEX IF NOT EXISTS transaction_transaction_year_idx ON transaction (transaction_year);
+2018-12-20 19:08:49,859 - logs/pythonCassandra.logs:80 - WARNING - Attempted:CREATE INDEX IF NOT EXISTS block_block_date_idx ON block (block_date);
+2018-12-20 19:08:49,863 - logs/pythonCassandra.logs:80 - WARNING - Attempted:CREATE INDEX IF NOT EXISTS transaction_transaction_month_idx ON transaction (transaction_month);
+2018-12-20 19:08:49,870 - logs/pythonCassandra.logs:80 - WARNING - Attempted:CREATE INDEX IF NOT EXISTS block_miner_address_idx ON block (miner_address);
+2018-12-20 19:08:49,872 - logs/pythonCassandra.logs:82 - WARNING - block Table & indexes Created/Checked !!!
+2018-12-20 19:08:49,875 - logs/pythonCassandra.logs:80 - WARNING - Attempted:CREATE INDEX IF NOT EXISTS transaction_transaction_day_idx ON transaction (transaction_day);
+2018-12-20 19:08:49,899 - logs/pythonCassandra.logs:80 - WARNING - Attempted:CREATE INDEX IF NOT EXISTS transaction_block_date_idx ON transaction (block_date);
+2018-12-20 19:08:49,916 - logs/pythonCassandra.logs:80 - WARNING - Attempted:CREATE INDEX IF NOT EXISTS transaction_transaction_timestamp_idx ON transaction (transaction_timestamp);
+2018-12-20 19:08:49,927 - logs/pythonCassandra.logs:80 - WARNING - Attempted:CREATE INDEX IF NOT EXISTS transaction_from_addr_idx ON transaction (from_addr);
+2018-12-20 19:08:49,932 - logs/pythonCassandra.logs:80 - WARNING - Attempted:CREATE INDEX IF NOT EXISTS transaction_to_addr_idx ON transaction (to_addr);
+2018-12-20 19:08:49,946 - logs/pythonCassandra.logs:80 - WARNING - Attempted:CREATE INDEX IF NOT EXISTS transaction_contract_addr_idx ON transaction (contract_addr);
+2018-12-20 19:08:49,953 - logs/pythonCassandra.logs:82 - WARNING - transaction Table & indexes Created/Checked !!!
+2018-12-20 19:12:44,617 - logs/pythonCassandra.logs:15 - WARNING - logs/pythonCassandra.logs
+2018-12-20 19:12:48,506 - logs/pythonCassandra.logs:80 - WARNING - Attempted:CREATE INDEX IF NOT EXISTS transaction_transaction_year_idx ON transaction (transaction_year);
+2018-12-20 19:12:48,516 - logs/pythonCassandra.logs:80 - WARNING - Attempted:CREATE INDEX IF NOT EXISTS block_block_year_idx ON block (block_year);
+2018-12-20 19:12:48,526 - logs/pythonCassandra.logs:80 - WARNING - Attempted:CREATE INDEX IF NOT EXISTS transaction_transaction_month_idx ON transaction (transaction_month);
+2018-12-20 19:12:48,531 - logs/pythonCassandra.logs:80 - WARNING - Attempted:CREATE INDEX IF NOT EXISTS block_block_month_idx ON block (block_month);
+2018-12-20 19:12:48,533 - logs/pythonCassandra.logs:80 - WARNING - Attempted:CREATE INDEX IF NOT EXISTS transaction_transaction_day_idx ON transaction (transaction_day);
+2018-12-20 19:12:48,535 - logs/pythonCassandra.logs:80 - WARNING - Attempted:CREATE INDEX IF NOT EXISTS block_block_day_idx ON block (block_day);
+2018-12-20 19:12:48,538 - logs/pythonCassandra.logs:80 - WARNING - Attempted:CREATE INDEX IF NOT EXISTS transaction_block_date_idx ON transaction (block_date);
+2018-12-20 19:12:48,541 - logs/pythonCassandra.logs:80 - WARNING - Attempted:CREATE INDEX IF NOT EXISTS block_block_date_idx ON block (block_date);
+2018-12-20 19:12:48,542 - logs/pythonCassandra.logs:80 - WARNING - Attempted:CREATE INDEX IF NOT EXISTS transaction_transaction_timestamp_idx ON transaction (transaction_timestamp);
+2018-12-20 19:12:48,544 - logs/pythonCassandra.logs:80 - WARNING - Attempted:CREATE INDEX IF NOT EXISTS block_miner_address_idx ON block (miner_address);
+2018-12-20 19:12:48,546 - logs/pythonCassandra.logs:82 - WARNING - block Table & indexes Created/Checked !!!
+2018-12-20 19:12:48,547 - logs/pythonCassandra.logs:80 - WARNING - Attempted:CREATE INDEX IF NOT EXISTS transaction_from_addr_idx ON transaction (from_addr);
+2018-12-20 19:12:48,554 - logs/pythonCassandra.logs:80 - WARNING - Attempted:CREATE INDEX IF NOT EXISTS transaction_to_addr_idx ON transaction (to_addr);
+2018-12-20 19:12:48,559 - logs/pythonCassandra.logs:80 - WARNING - Attempted:CREATE INDEX IF NOT EXISTS transaction_contract_addr_idx ON transaction (contract_addr);
+2018-12-20 19:12:48,560 - logs/pythonCassandra.logs:82 - WARNING - transaction Table & indexes Created/Checked !!!
+2018-12-20 19:15:55,374 - logs/pythonCassandra.logs:15 - WARNING - logs/pythonCassandra.logs
+2018-12-20 19:15:59,401 - logs/pythonCassandra.logs:80 - WARNING - Attempted:CREATE INDEX IF NOT EXISTS block_block_year_idx ON block (block_year);
+2018-12-20 19:15:59,404 - logs/pythonCassandra.logs:80 - WARNING - Attempted:CREATE INDEX IF NOT EXISTS transaction_transaction_year_idx ON transaction (transaction_year);
+2018-12-20 19:15:59,408 - logs/pythonCassandra.logs:80 - WARNING - Attempted:CREATE INDEX IF NOT EXISTS block_block_month_idx ON block (block_month);
+2018-12-20 19:15:59,410 - logs/pythonCassandra.logs:80 - WARNING - Attempted:CREATE INDEX IF NOT EXISTS transaction_transaction_month_idx ON transaction (transaction_month);
+2018-12-20 19:15:59,417 - logs/pythonCassandra.logs:80 - WARNING - Attempted:CREATE INDEX IF NOT EXISTS block_block_day_idx ON block (block_day);
+2018-12-20 19:15:59,419 - logs/pythonCassandra.logs:80 - WARNING - Attempted:CREATE INDEX IF NOT EXISTS transaction_transaction_day_idx ON transaction (transaction_day);
+2018-12-20 19:15:59,429 - logs/pythonCassandra.logs:80 - WARNING - Attempted:CREATE INDEX IF NOT EXISTS block_block_date_idx ON block (block_date);
+2018-12-20 19:15:59,437 - logs/pythonCassandra.logs:80 - WARNING - Attempted:CREATE INDEX IF NOT EXISTS block_miner_address_idx ON block (miner_address);
+2018-12-20 19:15:59,438 - logs/pythonCassandra.logs:80 - WARNING - Attempted:CREATE INDEX IF NOT EXISTS transaction_block_date_idx ON transaction (block_date);
+2018-12-20 19:15:59,439 - logs/pythonCassandra.logs:82 - WARNING - block Table & indexes Created/Checked !!!
+2018-12-20 19:15:59,447 - logs/pythonCassandra.logs:80 - WARNING - Attempted:CREATE INDEX IF NOT EXISTS transaction_transaction_timestamp_idx ON transaction (transaction_timestamp);
+2018-12-20 19:15:59,456 - logs/pythonCassandra.logs:80 - WARNING - Attempted:CREATE INDEX IF NOT EXISTS transaction_from_addr_idx ON transaction (from_addr);
+2018-12-20 19:15:59,461 - logs/pythonCassandra.logs:80 - WARNING - Attempted:CREATE INDEX IF NOT EXISTS transaction_to_addr_idx ON transaction (to_addr);
+2018-12-20 19:15:59,464 - logs/pythonCassandra.logs:80 - WARNING - Attempted:CREATE INDEX IF NOT EXISTS transaction_contract_addr_idx ON transaction (contract_addr);
+2018-12-20 19:15:59,467 - logs/pythonCassandra.logs:82 - WARNING - transaction Table & indexes Created/Checked !!!
+2018-12-20 19:17:05,293 - logs/pythonCassandra.logs:15 - WARNING - logs/pythonCassandra.logs
+2018-12-20 19:17:09,138 - logs/pythonCassandra.logs:80 - WARNING - Attempted:CREATE INDEX IF NOT EXISTS transaction_transaction_year_idx ON transaction (transaction_year);
+2018-12-20 19:17:09,142 - logs/pythonCassandra.logs:80 - WARNING - Attempted:CREATE INDEX IF NOT EXISTS transaction_transaction_month_idx ON transaction (transaction_month);
+2018-12-20 19:17:09,144 - logs/pythonCassandra.logs:80 - WARNING - Attempted:CREATE INDEX IF NOT EXISTS block_block_year_idx ON block (block_year);
+2018-12-20 19:17:09,145 - logs/pythonCassandra.logs:80 - WARNING - Attempted:CREATE INDEX IF NOT EXISTS transaction_transaction_day_idx ON transaction (transaction_day);
+2018-12-20 19:17:09,147 - logs/pythonCassandra.logs:80 - WARNING - Attempted:CREATE INDEX IF NOT EXISTS block_block_month_idx ON block (block_month);
+2018-12-20 19:17:09,149 - logs/pythonCassandra.logs:80 - WARNING - Attempted:CREATE INDEX IF NOT EXISTS transaction_block_date_idx ON transaction (block_date);
+2018-12-20 19:17:09,151 - logs/pythonCassandra.logs:80 - WARNING - Attempted:CREATE INDEX IF NOT EXISTS block_block_day_idx ON block (block_day);
+2018-12-20 19:17:09,152 - logs/pythonCassandra.logs:80 - WARNING - Attempted:CREATE INDEX IF NOT EXISTS transaction_transaction_timestamp_idx ON transaction (transaction_timestamp);
+2018-12-20 19:17:09,154 - logs/pythonCassandra.logs:80 - WARNING - Attempted:CREATE INDEX IF NOT EXISTS block_block_date_idx ON block (block_date);
+2018-12-20 19:17:09,156 - logs/pythonCassandra.logs:80 - WARNING - Attempted:CREATE INDEX IF NOT EXISTS transaction_from_addr_idx ON transaction (from_addr);
+2018-12-20 19:17:09,158 - logs/pythonCassandra.logs:80 - WARNING - Attempted:CREATE INDEX IF NOT EXISTS block_miner_address_idx ON block (miner_address);
+2018-12-20 19:17:09,160 - logs/pythonCassandra.logs:80 - WARNING - Attempted:CREATE INDEX IF NOT EXISTS transaction_to_addr_idx ON transaction (to_addr);
+2018-12-20 19:17:09,160 - logs/pythonCassandra.logs:82 - WARNING - block Table & indexes Created/Checked !!!
+2018-12-20 19:17:09,165 - logs/pythonCassandra.logs:80 - WARNING - Attempted:CREATE INDEX IF NOT EXISTS transaction_contract_addr_idx ON transaction (contract_addr);
+2018-12-20 19:17:09,166 - logs/pythonCassandra.logs:82 - WARNING - transaction Table & indexes Created/Checked !!!
+2018-12-20 19:18:50,556 - logs/pythonCassandra.logs:15 - WARNING - logs/pythonCassandra.logs
+2018-12-20 19:18:54,327 - logs/pythonCassandra.logs:80 - WARNING - Attempted:CREATE INDEX IF NOT EXISTS block_block_year_idx ON block (block_year);
+2018-12-20 19:18:54,336 - logs/pythonCassandra.logs:80 - WARNING - Attempted:CREATE INDEX IF NOT EXISTS transaction_transaction_year_idx ON transaction (transaction_year);
+2018-12-20 19:18:54,337 - logs/pythonCassandra.logs:80 - WARNING - Attempted:CREATE INDEX IF NOT EXISTS block_block_month_idx ON block (block_month);
+2018-12-20 19:18:54,342 - logs/pythonCassandra.logs:80 - WARNING - Attempted:CREATE INDEX IF NOT EXISTS transaction_transaction_month_idx ON transaction (transaction_month);
+2018-12-20 19:18:54,344 - logs/pythonCassandra.logs:80 - WARNING - Attempted:CREATE INDEX IF NOT EXISTS block_block_day_idx ON block (block_day);
+2018-12-20 19:18:54,345 - logs/pythonCassandra.logs:80 - WARNING - Attempted:CREATE INDEX IF NOT EXISTS transaction_transaction_day_idx ON transaction (transaction_day);
+2018-12-20 19:18:54,346 - logs/pythonCassandra.logs:80 - WARNING - Attempted:CREATE INDEX IF NOT EXISTS block_block_date_idx ON block (block_date);
+2018-12-20 19:18:54,349 - logs/pythonCassandra.logs:80 - WARNING - Attempted:CREATE INDEX IF NOT EXISTS block_miner_address_idx ON block (miner_address);
+2018-12-20 19:18:54,350 - logs/pythonCassandra.logs:80 - WARNING - Attempted:CREATE INDEX IF NOT EXISTS transaction_block_date_idx ON transaction (block_date);
+2018-12-20 19:18:54,353 - logs/pythonCassandra.logs:82 - WARNING - block Table & indexes Created/Checked !!!
+2018-12-20 19:18:54,375 - logs/pythonCassandra.logs:80 - WARNING - Attempted:CREATE INDEX IF NOT EXISTS transaction_transaction_timestamp_idx ON transaction (transaction_timestamp);
+2018-12-20 19:18:54,407 - logs/pythonCassandra.logs:80 - WARNING - Attempted:CREATE INDEX IF NOT EXISTS transaction_from_addr_idx ON transaction (from_addr);
+2018-12-20 19:18:54,415 - logs/pythonCassandra.logs:80 - WARNING - Attempted:CREATE INDEX IF NOT EXISTS transaction_to_addr_idx ON transaction (to_addr);
+2018-12-20 19:18:54,421 - logs/pythonCassandra.logs:80 - WARNING - Attempted:CREATE INDEX IF NOT EXISTS transaction_contract_addr_idx ON transaction (contract_addr);
+2018-12-20 19:18:54,423 - logs/pythonCassandra.logs:82 - WARNING - transaction Table & indexes Created/Checked !!!
+2018-12-20 19:21:16,020 - logs/pythonCassandra.logs:15 - WARNING - logs/pythonCassandra.logs
+2018-12-20 19:21:19,905 - logs/pythonCassandra.logs:80 - WARNING - Attempted:CREATE INDEX IF NOT EXISTS transaction_transaction_year_idx ON transaction (transaction_year);
+2018-12-20 19:21:19,910 - logs/pythonCassandra.logs:80 - WARNING - Attempted:CREATE INDEX IF NOT EXISTS transaction_transaction_month_idx ON transaction (transaction_month);
+2018-12-20 19:21:19,912 - logs/pythonCassandra.logs:80 - WARNING - Attempted:CREATE INDEX IF NOT EXISTS block_block_year_idx ON block (block_year);
+2018-12-20 19:21:19,914 - logs/pythonCassandra.logs:80 - WARNING - Attempted:CREATE INDEX IF NOT EXISTS transaction_transaction_day_idx ON transaction (transaction_day);
+2018-12-20 19:21:19,917 - logs/pythonCassandra.logs:80 - WARNING - Attempted:CREATE INDEX IF NOT EXISTS block_block_month_idx ON block (block_month);
+2018-12-20 19:21:19,918 - logs/pythonCassandra.logs:80 - WARNING - Attempted:CREATE INDEX IF NOT EXISTS transaction_block_date_idx ON transaction (block_date);
+2018-12-20 19:21:19,929 - logs/pythonCassandra.logs:80 - WARNING - Attempted:CREATE INDEX IF NOT EXISTS block_block_day_idx ON block (block_day);
+2018-12-20 19:21:19,930 - logs/pythonCassandra.logs:80 - WARNING - Attempted:CREATE INDEX IF NOT EXISTS transaction_transaction_timestamp_idx ON transaction (transaction_timestamp);
+2018-12-20 19:21:19,949 - logs/pythonCassandra.logs:80 - WARNING - Attempted:CREATE INDEX IF NOT EXISTS block_block_date_idx ON block (block_date);
+2018-12-20 19:21:19,952 - logs/pythonCassandra.logs:80 - WARNING - Attempted:CREATE INDEX IF NOT EXISTS transaction_from_addr_idx ON transaction (from_addr);
+2018-12-20 19:21:19,958 - logs/pythonCassandra.logs:80 - WARNING - Attempted:CREATE INDEX IF NOT EXISTS block_miner_address_idx ON block (miner_address);
+2018-12-20 19:21:19,959 - logs/pythonCassandra.logs:82 - WARNING - block Table & indexes Created/Checked !!!
+2018-12-20 19:21:19,962 - logs/pythonCassandra.logs:80 - WARNING - Attempted:CREATE INDEX IF NOT EXISTS transaction_to_addr_idx ON transaction (to_addr);
+2018-12-20 19:21:19,966 - logs/pythonCassandra.logs:80 - WARNING - Attempted:CREATE INDEX IF NOT EXISTS transaction_contract_addr_idx ON transaction (contract_addr);
+2018-12-20 19:21:19,969 - logs/pythonCassandra.logs:82 - WARNING - transaction Table & indexes Created/Checked !!!
+2018-12-20 19:23:08,221 - logs/pythonCassandra.logs:15 - WARNING - logs/pythonCassandra.logs
+2018-12-20 19:23:12,041 - logs/pythonCassandra.logs:80 - WARNING - Attempted:CREATE INDEX IF NOT EXISTS transaction_transaction_year_idx ON transaction (transaction_year);
+2018-12-20 19:23:12,049 - logs/pythonCassandra.logs:80 - WARNING - Attempted:CREATE INDEX IF NOT EXISTS transaction_transaction_month_idx ON transaction (transaction_month);
+2018-12-20 19:23:12,053 - logs/pythonCassandra.logs:80 - WARNING - Attempted:CREATE INDEX IF NOT EXISTS transaction_transaction_day_idx ON transaction (transaction_day);
+2018-12-20 19:23:12,060 - logs/pythonCassandra.logs:80 - WARNING - Attempted:CREATE INDEX IF NOT EXISTS transaction_block_date_idx ON transaction (block_date);
+2018-12-20 19:23:12,064 - logs/pythonCassandra.logs:80 - WARNING - Attempted:CREATE INDEX IF NOT EXISTS transaction_transaction_timestamp_idx ON transaction (transaction_timestamp);
+2018-12-20 19:23:12,082 - logs/pythonCassandra.logs:80 - WARNING - Attempted:CREATE INDEX IF NOT EXISTS transaction_from_addr_idx ON transaction (from_addr);
+2018-12-20 19:23:12,086 - logs/pythonCassandra.logs:80 - WARNING - Attempted:CREATE INDEX IF NOT EXISTS transaction_to_addr_idx ON transaction (to_addr);
+2018-12-20 19:23:12,089 - logs/pythonCassandra.logs:80 - WARNING - Attempted:CREATE INDEX IF NOT EXISTS block_block_year_idx ON block (block_year);
+2018-12-20 19:23:12,090 - logs/pythonCassandra.logs:80 - WARNING - Attempted:CREATE INDEX IF NOT EXISTS transaction_contract_addr_idx ON transaction (contract_addr);
+2018-12-20 19:23:12,091 - logs/pythonCassandra.logs:82 - WARNING - transaction Table & indexes Created/Checked !!!
+2018-12-20 19:23:12,107 - logs/pythonCassandra.logs:80 - WARNING - Attempted:CREATE INDEX IF NOT EXISTS block_block_month_idx ON block (block_month);
+2018-12-20 19:23:12,113 - logs/pythonCassandra.logs:80 - WARNING - Attempted:CREATE INDEX IF NOT EXISTS block_block_day_idx ON block (block_day);
+2018-12-20 19:23:12,136 - logs/pythonCassandra.logs:80 - WARNING - Attempted:CREATE INDEX IF NOT EXISTS block_block_date_idx ON block (block_date);
+2018-12-20 19:23:12,161 - logs/pythonCassandra.logs:80 - WARNING - Attempted:CREATE INDEX IF NOT EXISTS block_miner_address_idx ON block (miner_address);
+2018-12-20 19:23:12,179 - logs/pythonCassandra.logs:82 - WARNING - block Table & indexes Created/Checked !!!
+2018-12-20 19:27:11,352 - logs/pythonCassandra.logs:15 - WARNING - logs/pythonCassandra.logs
+2018-12-20 19:27:15,148 - logs/pythonCassandra.logs:80 - WARNING - Attempted:CREATE INDEX IF NOT EXISTS transaction_transaction_year_idx ON transaction (transaction_year);
+2018-12-20 19:27:15,156 - logs/pythonCassandra.logs:80 - WARNING - Attempted:CREATE INDEX IF NOT EXISTS transaction_transaction_month_idx ON transaction (transaction_month);
+2018-12-20 19:27:15,157 - logs/pythonCassandra.logs:80 - WARNING - Attempted:CREATE INDEX IF NOT EXISTS block_block_year_idx ON block (block_year);
+2018-12-20 19:27:15,161 - logs/pythonCassandra.logs:80 - WARNING - Attempted:CREATE INDEX IF NOT EXISTS transaction_transaction_day_idx ON transaction (transaction_day);
+2018-12-20 19:27:15,162 - logs/pythonCassandra.logs:80 - WARNING - Attempted:CREATE INDEX IF NOT EXISTS block_block_month_idx ON block (block_month);
+2018-12-20 19:27:15,166 - logs/pythonCassandra.logs:80 - WARNING - Attempted:CREATE INDEX IF NOT EXISTS transaction_block_date_idx ON transaction (block_date);
+2018-12-20 19:27:15,169 - logs/pythonCassandra.logs:80 - WARNING - Attempted:CREATE INDEX IF NOT EXISTS block_block_day_idx ON block (block_day);
+2018-12-20 19:27:15,172 - logs/pythonCassandra.logs:80 - WARNING - Attempted:CREATE INDEX IF NOT EXISTS transaction_transaction_timestamp_idx ON transaction (transaction_timestamp);
+2018-12-20 19:27:15,175 - logs/pythonCassandra.logs:80 - WARNING - Attempted:CREATE INDEX IF NOT EXISTS block_block_date_idx ON block (block_date);
+2018-12-20 19:27:15,177 - logs/pythonCassandra.logs:80 - WARNING - Attempted:CREATE INDEX IF NOT EXISTS transaction_from_addr_idx ON transaction (from_addr);
+2018-12-20 19:27:15,193 - logs/pythonCassandra.logs:80 - WARNING - Attempted:CREATE INDEX IF NOT EXISTS transaction_to_addr_idx ON transaction (to_addr);
+2018-12-20 19:27:15,198 - logs/pythonCassandra.logs:80 - WARNING - Attempted:CREATE INDEX IF NOT EXISTS block_miner_address_idx ON block (miner_address);
+2018-12-20 19:27:15,200 - logs/pythonCassandra.logs:80 - WARNING - Attempted:CREATE INDEX IF NOT EXISTS transaction_contract_addr_idx ON transaction (contract_addr);
+2018-12-20 19:27:15,200 - logs/pythonCassandra.logs:82 - WARNING - block Table & indexes Created/Checked !!!
+2018-12-20 19:27:15,202 - logs/pythonCassandra.logs:82 - WARNING - transaction Table & indexes Created/Checked !!!
+2018-12-20 19:31:29,276 - logs/pythonCassandra.logs:15 - WARNING - logs/pythonCassandra.logs
+2018-12-20 19:31:33,132 - logs/pythonCassandra.logs:80 - WARNING - Attempted:CREATE INDEX IF NOT EXISTS transaction_transaction_year_idx ON transaction (transaction_year);
+2018-12-20 19:31:33,141 - logs/pythonCassandra.logs:80 - WARNING - Attempted:CREATE INDEX IF NOT EXISTS transaction_transaction_month_idx ON transaction (transaction_month);
+2018-12-20 19:31:33,147 - logs/pythonCassandra.logs:80 - WARNING - Attempted:CREATE INDEX IF NOT EXISTS transaction_transaction_day_idx ON transaction (transaction_day);
+2018-12-20 19:31:33,161 - logs/pythonCassandra.logs:80 - WARNING - Attempted:CREATE INDEX IF NOT EXISTS transaction_block_date_idx ON transaction (block_date);
+2018-12-20 19:31:33,166 - logs/pythonCassandra.logs:80 - WARNING - Attempted:CREATE INDEX IF NOT EXISTS transaction_transaction_timestamp_idx ON transaction (transaction_timestamp);
+2018-12-20 19:31:33,167 - logs/pythonCassandra.logs:80 - WARNING - Attempted:CREATE INDEX IF NOT EXISTS block_block_year_idx ON block (block_year);
+2018-12-20 19:31:33,170 - logs/pythonCassandra.logs:80 - WARNING - Attempted:CREATE INDEX IF NOT EXISTS transaction_from_addr_idx ON transaction (from_addr);
+2018-12-20 19:31:33,172 - logs/pythonCassandra.logs:80 - WARNING - Attempted:CREATE INDEX IF NOT EXISTS block_block_month_idx ON block (block_month);
+2018-12-20 19:31:33,178 - logs/pythonCassandra.logs:80 - WARNING - Attempted:CREATE INDEX IF NOT EXISTS block_block_day_idx ON block (block_day);
+2018-12-20 19:31:33,178 - logs/pythonCassandra.logs:80 - WARNING - Attempted:CREATE INDEX IF NOT EXISTS transaction_to_addr_idx ON transaction (to_addr);
+2018-12-20 19:31:33,183 - logs/pythonCassandra.logs:80 - WARNING - Attempted:CREATE INDEX IF NOT EXISTS transaction_contract_addr_idx ON transaction (contract_addr);
+2018-12-20 19:31:33,185 - logs/pythonCassandra.logs:80 - WARNING - Attempted:CREATE INDEX IF NOT EXISTS block_block_date_idx ON block (block_date);
+2018-12-20 19:31:33,185 - logs/pythonCassandra.logs:82 - WARNING - transaction Table & indexes Created/Checked !!!
+2018-12-20 19:31:33,193 - logs/pythonCassandra.logs:80 - WARNING - Attempted:CREATE INDEX IF NOT EXISTS block_miner_address_idx ON block (miner_address);
+2018-12-20 19:31:33,194 - logs/pythonCassandra.logs:82 - WARNING - block Table & indexes Created/Checked !!!

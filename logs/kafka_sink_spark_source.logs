@@ -1,0 +1,87 @@
+2018-12-20 19:31:30,132 - logs/kafka_sink_spark_source.logs:15 - WARNING - logs/kafka_sink_spark_source.logs
+2018-12-20 19:31:33,309 - logs/kafka_sink_spark_source.logs:244 - WARNING - TOPIC:staging.aion.block
+2018-12-20 19:31:33,313 - logs/kafka_sink_spark_source.logs:263 - ERROR - MAKE FIRST OFFSET:{}
+Traceback (most recent call last):
+  File "/home/andre/aion/data_science/bokeh/kakfka_spark_streamer/scripts/streaming/kafka_sink_spark_source.py", line 249, in read_offsets
+    partitions = zk.get_children(topic_path)
+  File "/home/andre/anaconda3/envs/bokeh_aion_analytics/lib/python3.5/site-packages/kazoo/client.py", line 1096, in get_children
+    include_data=include_data).get()
+  File "/home/andre/anaconda3/envs/bokeh_aion_analytics/lib/python3.5/site-packages/kazoo/handlers/utils.py", line 73, in get
+    raise self._exception
+kazoo.exceptions.ConnectionClosedError: Connection has been closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/andre/aion/data_science/bokeh/kakfka_spark_streamer/scripts/streaming/kafka_sink_spark_source.py", line 258, in read_offsets
+    zk.ensure_path(topic_path+'/'+"0")
+  File "/home/andre/anaconda3/envs/bokeh_aion_analytics/lib/python3.5/site-packages/kazoo/client.py", line 939, in ensure_path
+    return self.ensure_path_async(path, acl).get()
+  File "/home/andre/anaconda3/envs/bokeh_aion_analytics/lib/python3.5/site-packages/kazoo/handlers/utils.py", line 79, in get
+    raise self._exception
+  File "/home/andre/anaconda3/envs/bokeh_aion_analytics/lib/python3.5/site-packages/kazoo/handlers/utils.py", line 227, in captured_function
+    return function(*args, **kwargs)
+  File "/home/andre/anaconda3/envs/bokeh_aion_analytics/lib/python3.5/site-packages/kazoo/handlers/utils.py", line 245, in captured_function
+    value = function(*args, **kwargs)
+  File "/home/andre/anaconda3/envs/bokeh_aion_analytics/lib/python3.5/site-packages/kazoo/client.py", line 967, in exists_completion
+    if result.get():
+  File "/home/andre/anaconda3/envs/bokeh_aion_analytics/lib/python3.5/site-packages/kazoo/handlers/utils.py", line 73, in get
+    raise self._exception
+kazoo.exceptions.ConnectionClosedError: Connection has been closed
+2018-12-20 19:31:33,322 - logs/kafka_sink_spark_source.logs:343 - WARNING - block from_offsets in run:{}
+2018-12-20 19:31:33,336 - logs/kafka_sink_spark_source.logs:244 - WARNING - TOPIC:staging.aion.transaction
+2018-12-20 19:31:33,342 - logs/kafka_sink_spark_source.logs:343 - WARNING - transaction from_offsets in run:{<pyspark.streaming.kafka.TopicAndPartition object at 0x7fc158774f60>: 1250}
+2018-12-20 19:31:34,041 - logs/kafka_sink_spark_source.logs:318 - WARNING - inside kafka stream:block
+2018-12-20 19:31:34,042 - logs/kafka_sink_spark_source.logs:318 - WARNING - inside kafka stream:transaction
+2018-12-20 19:31:34,531 - logs/kafka_sink_spark_source.logs:329 - ERROR - KAFKA STREAM :%s
+Traceback (most recent call last):
+  File "/home/andre/aion/data_science/bokeh/kakfka_spark_streamer/scripts/streaming/kafka_sink_spark_source.py", line 322, in kafka_stream
+    stream = stream.foreachRDD(lambda rdd: cls.handle_rdds(rdd) \
+  File "/usr/local/spark/spark-2.3.2-bin-hadoop2.7/python/lib/pyspark.zip/pyspark/streaming/dstream.py", line 162, in foreachRDD
+    api.callForeachRDD(self._jdstream, jfunc)
+  File "/usr/local/spark/spark-2.3.2-bin-hadoop2.7/python/lib/py4j-0.10.7-src.zip/py4j/java_gateway.py", line 1257, in __call__
+    answer, self.gateway_client, self.target_id, self.name)
+  File "/usr/local/spark/spark-2.3.2-bin-hadoop2.7/python/lib/py4j-0.10.7-src.zip/py4j/protocol.py", line 328, in get_return_value
+    format(target_id, ".", name), value)
+py4j.protocol.Py4JJavaError: An error occurred while calling z:org.apache.spark.streaming.api.python.PythonDStream.callForeachRDD.
+: java.lang.IllegalStateException: Adding new inputs, transformations, and output operations after starting a context is not supported
+	at org.apache.spark.streaming.dstream.DStream.validateAtInit(DStream.scala:224)
+	at org.apache.spark.streaming.dstream.DStream.<init>(DStream.scala:66)
+	at org.apache.spark.streaming.dstream.ForEachDStream.<init>(ForEachDStream.scala:39)
+	at org.apache.spark.streaming.dstream.DStream.org$apache$spark$streaming$dstream$DStream$$foreachRDD(DStream.scala:654)
+	at org.apache.spark.streaming.dstream.DStream$$anonfun$foreachRDD$2.apply$mcV$sp(DStream.scala:639)
+	at org.apache.spark.streaming.dstream.DStream$$anonfun$foreachRDD$2.apply(DStream.scala:639)
+	at org.apache.spark.streaming.dstream.DStream$$anonfun$foreachRDD$2.apply(DStream.scala:639)
+	at org.apache.spark.rdd.RDDOperationScope$.withScope(RDDOperationScope.scala:151)
+	at org.apache.spark.rdd.RDDOperationScope$.withScope(RDDOperationScope.scala:112)
+	at org.apache.spark.SparkContext.withScope(SparkContext.scala:693)
+	at org.apache.spark.streaming.StreamingContext.withScope(StreamingContext.scala:265)
+	at org.apache.spark.streaming.dstream.DStream.foreachRDD(DStream.scala:635)
+	at org.apache.spark.streaming.api.python.PythonDStream$.callForeachRDD(PythonDStream.scala:179)
+	at org.apache.spark.streaming.api.python.PythonDStream.callForeachRDD(PythonDStream.scala)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at py4j.reflection.MethodInvoker.invoke(MethodInvoker.java:244)
+	at py4j.reflection.ReflectionEngine.invoke(ReflectionEngine.java:357)
+	at py4j.Gateway.invoke(Gateway.java:282)
+	at py4j.commands.AbstractCommand.invokeMethod(AbstractCommand.java:132)
+	at py4j.commands.CallCommand.execute(CallCommand.java:79)
+	at py4j.GatewayConnection.run(GatewayConnection.java:238)
+	at java.lang.Thread.run(Thread.java:748)
+
+2018-12-20 19:32:15,454 - logs/kafka_sink_spark_source.logs:228 - ERROR - HANDLE RDDS:
+Traceback (most recent call last):
+  File "/home/andre/aion/data_science/bokeh/kakfka_spark_streamer/scripts/streaming/kafka_sink_spark_source.py", line 223, in handle_rdds
+    cls.block_to_tuple(taken)
+  File "/home/andre/aion/data_science/bokeh/kakfka_spark_streamer/scripts/streaming/kafka_sink_spark_source.py", line 136, in block_to_tuple
+    print('block # loaded from {}:{}'.format(cls.table, mess['block_number']))
+BrokenPipeError: [Errno 32] Broken pipe
+2018-12-20 19:32:15,455 - logs/kafka_sink_spark_source.logs:228 - ERROR - HANDLE RDDS:
+Traceback (most recent call last):
+  File "/home/andre/aion/data_science/bokeh/kakfka_spark_streamer/scripts/streaming/kafka_sink_spark_source.py", line 223, in handle_rdds
+    cls.block_to_tuple(taken)
+  File "/home/andre/aion/data_science/bokeh/kakfka_spark_streamer/scripts/streaming/kafka_sink_spark_source.py", line 136, in block_to_tuple
+    print('block # loaded from {}:{}'.format(cls.table, mess['block_number']))
+BrokenPipeError: [Errno 32] Broken pipe
