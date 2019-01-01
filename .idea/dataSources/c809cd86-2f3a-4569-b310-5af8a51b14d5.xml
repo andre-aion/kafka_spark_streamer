@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dataSource name="aion@localhost">
+<dataSource name="clickhouse_aion@localhost">
   <database-model serializer="dbm" dbms="CLICKHOUSE" family-id="CLICKHOUSE" format-version="4.14">
     <root id="1">
       <ServerVersion>18.16.1</ServerVersion>
@@ -1664,12 +1664,12 @@
     <table id="556" parent="3" name="block">
       <Temporary>0</Temporary>
       <Engine>MergeTree</Engine>
-      <EngineParams>() ORDER BY block_date SETTINGS index_granularity = 8192</EngineParams>
+      <EngineParams>() ORDER BY block_timestamp SETTINGS index_granularity = 8192</EngineParams>
     </table>
     <table id="557" parent="3" name="transaction">
       <Temporary>0</Temporary>
       <Engine>MergeTree</Engine>
-      <EngineParams>() ORDER BY block_date SETTINGS index_granularity = 8192</EngineParams>
+      <EngineParams>() ORDER BY block_timestamp SETTINGS index_granularity = 8192</EngineParams>
     </table>
     <column id="558" parent="556" name="block_number">
       <Position>1</Position>
@@ -1723,7 +1723,7 @@
     </column>
     <column id="568" parent="556" name="block_date">
       <Position>11</Position>
-      <DataType>Date|0s</DataType>
+      <DataType>String|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
     <column id="569" parent="556" name="block_year">
@@ -1788,7 +1788,7 @@
     </column>
     <column id="581" parent="557" name="block_date">
       <Position>6</Position>
-      <DataType>Date|0s</DataType>
+      <DataType>String|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
     <column id="582" parent="557" name="from_addr">

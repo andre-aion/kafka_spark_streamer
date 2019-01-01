@@ -15,11 +15,17 @@
         <property name="yearIsDateType" value="false" />
       </driver-properties>
     </data-source>
-    <data-source source="LOCAL" name="aion@localhost" uuid="c809cd86-2f3a-4569-b310-5af8a51b14d5">
+    <data-source source="LOCAL" name="clickhouse_aion@localhost" uuid="c809cd86-2f3a-4569-b310-5af8a51b14d5">
       <driver-ref>clickhouse</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>ru.yandex.clickhouse.ClickHouseDriver</jdbc-driver>
       <jdbc-url>jdbc:clickhouse://localhost:8123/aion</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="cassandra@localhost" uuid="39d6f83e-b71c-4a62-9471-952f198e4d80">
+      <driver-ref>cassandra</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.dbschema.CassandraJdbcDriver</jdbc-driver>
+      <jdbc-url>jdbc:cassandra://localhost:9042/aion</jdbc-url>
     </data-source>
   </component>
 </project>

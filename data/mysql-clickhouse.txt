@@ -1,0 +1,96 @@
+clickhouse-mysql \
+    --src-server-id=1 \
+    --src-resume \
+    --src-wait \
+    --nice-pause=1 \
+    --src-host=40.113.226.240 \
+    --src-user=kafka \
+    --src-password=1233tka061 \
+    --src-tables=aion.block, aion.transaction\
+    --dst-host=127.0.0.1 \
+    --migrate-table \
+    --pump-data \
+    --csvpool
+
+table_dict['block'] = {
+                        'block_number':'UInt64',
+                        'miner_address' : 'String',
+                        'miner_addr' : 'String',
+                        'nonce' : 'String',
+                        'difficulty' : 'UInt64',
+                        'total_difficulty' : 'UInt64',
+                        'nrg_consumed' : 'UInt64',
+                        'nrg_limit' : 'UInt64',
+                        'block_size' : 'UInt64',
+                        'block_timestamp' : 'Datetime',
+                        'block_date' : 'Date',
+                        'block_year' : 'UInt16',
+                        'block_month' : 'UInt8',
+                        'block_day' : 'UInt8',
+                        'num_transactions': 'UInt16',
+                        'block_time' : 'UInt64',
+                        'approx_nrg_reward': 'Float64',
+                        'transaction_hashes': 'String'
+                    }
+
+# click house create table
+CREATE TABLE IF NOT EXISTS aion.block ( block_number UInt64,
+                        miner_address  String,
+                        miner_addr  String,
+                        nonce  String,
+                        difficulty  UInt64,
+                        total_difficulty  UInt64,
+                        nrg_consumed  UInt64,
+                        nrg_limit  UInt64,
+                        block_size  UInt64,
+                        block_timestamp Datetime,
+                        block_date String,
+                        block_year  UInt16,
+                        block_month  UInt8,
+                        block_day  UInt8,
+                        num_transactions UInt16,
+                        block_time  UInt64,
+                        approx_nrg_reward Float64,
+                        transaction_hashes String
+           ) ENGINE = MergeTree() ORDER BY (block_timestamp)
+
+# from  cassandra to csv to  clickhouse
+COPY aion.block (block_number, miner_address, miner_addr,
+               nonce, difficulty,
+               total_difficulty, nrg_consumed, nrg_limit,
+               block_size, block_timestamp, block_date, block_year,
+               block_month, block_day, num_transactions,
+               block_time, approx_nrg_reward, transaction_hashes) TO 'Downloads/block.csv' WITH HEADER = TRUE AND DATETIMEFORMAT='%Y-%m-%d %H:%M:%S';
+
+cat Downloads/block.csv | clickhouse-client --database=aion --query="INSERT INTO block FORMAT CSVWithNames";
+
+CREATE TABLE IF NOT EXISTS aion.transaction(
+                                transaction_hash  String,
+                                transaction_index  UInt16,
+                                block_number  UInt64,
+                                transaction_timestamp  UInt64,
+                                block_timestamp  Datetime,
+                                block_date  Date,
+                                from_addr  String,
+                                to_addr  String,
+                                approx_value Float64,
+                                nrg_consumed UInt64,
+                                nrg_price UInt64,
+                                nonce String,
+                                contract_addr  String,
+                                transaction_year  UInt16,
+                                transaction_month  UInt8,
+                                transaction_day   UInt8
+                                )ENGINE = MergeTree() ORDER BY (block_timestamp)
+
+
+
+
+
+COPY aion.transaction (transaction_hash,transaction_index,block_number,
+                       transaction_timestamp,block_timestamp,block_date,
+                       from_addr,to_addr,approx_value,nrg_consumed,
+                       nrg_price,nonce,contract_addr,transaction_year,
+                       transaction_month,transaction_day) TO 'Downloads/transaction.csv' WITH HEADER = TRUE AND DATETIMEFORMAT='%Y-%m-%d %H:%M:%S';
+
+cat Downloads/transaction.csv | clickhouse-client --database=aion --query="INSERT INTO transaction FORMAT CSVWithNames";

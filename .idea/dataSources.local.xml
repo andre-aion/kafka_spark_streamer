@@ -11,13 +11,21 @@
       <user-name>kafka</user-name>
       <introspection-schemas>*:@</introspection-schemas>
     </data-source>
-    <data-source name="aion@localhost" uuid="c809cd86-2f3a-4569-b310-5af8a51b14d5">
+    <data-source name="clickhouse_aion@localhost" uuid="c809cd86-2f3a-4569-b310-5af8a51b14d5">
       <database-info product="ClickHouse" version="0.42" jdbc-version="0.1" driver-name="ru.yandex.clickhouse-jdbc" driver-version="0.1" dbms="CLICKHOUSE" exact-version="18.16.1" exact-driver-version="0.1">
         <identifier-quote-string>`</identifier-quote-string>
       </database-info>
       <case-sensitivity plain-identifiers="exact" quoted-identifiers="exact" />
       <secret-storage>master_key</secret-storage>
       <user-name>default</user-name>
+      <introspection-schemas>*:@</introspection-schemas>
+    </data-source>
+    <data-source name="cassandra@localhost" uuid="39d6f83e-b71c-4a62-9471-952f198e4d80">
+      <database-info product="Cassandra" version="3.0.17" jdbc-version="4.2" driver-name="Cassandra JDBC Driver" driver-version="1.2.9" dbms="CASSANDRA" exact-version="3.0.17" exact-driver-version="1.29">
+        <identifier-quote-string>&quot;</identifier-quote-string>
+      </database-info>
+      <case-sensitivity plain-identifiers="lower" quoted-identifiers="exact" />
+      <secret-storage>master_key</secret-storage>
       <introspection-schemas>*:@</introspection-schemas>
     </data-source>
   </component>
