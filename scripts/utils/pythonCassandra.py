@@ -2,18 +2,9 @@ from scripts.utils.mylogger import mylogger
 from config import insert_sql, create_table_sql, create_indexes
 from concurrent.futures import ThreadPoolExecutor
 
-import argparse
-import logging
-import os
-import json
-import mysql
-from mysql.connector import errorcode
 
 import logging
-from cassandra.cqlengine import columns
-from cassandra.cqlengine.models import Model
 from cassandra.cluster import Cluster, BatchStatement
-from cassandra.query import SimpleStatement
 
 import gc
 from pdb import set_trace

@@ -4,12 +4,12 @@ import threading
 
 # IMPORT HELPERS
 from bokeh.document import without_document_lock
+from bokeh.models import Div
 from tornado import gen
 from bokeh.server.server import Server
 
 
-import config
-from scripts.streaming.kafka_sink_spark_source import KafkaConnectPyspark
+from scripts.streaming.kafka_spark_cass_clickhouse import KafkaConnectPyspark
 
 # GET THE DASHBOARDS
 from scripts.utils.mylogger import mylogger
@@ -56,7 +56,8 @@ t2.start()
 @gen.coroutine
 def kafka_spark_streamer(doc):
     try:
-        doc.add_root()
+        div = Div(text='Just close this window please')
+        doc.add_root(div)
     except Exception:
         logger.error("TABS:", exc_info=True)
 

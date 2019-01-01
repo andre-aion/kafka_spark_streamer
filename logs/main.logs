@@ -109,3 +109,187 @@ Traceback (most recent call last):
   File "/home/andre/aion/data_science/bokeh/kakfka_spark_streamer/main.py", line 59, in kafka_spark_streamer
     doc.add_root()
 TypeError: add_root() missing 1 required positional argument: 'model'
+2018-12-22 12:56:35,041 - logs/main.logs:15 - WARNING - logs/main.logs
+2018-12-22 12:56:37,725 - logs/main.logs:61 - ERROR - TABS:
+Traceback (most recent call last):
+  File "/home/andre/aion/data_science/bokeh/kafka_spark_streamer/main.py", line 59, in kafka_spark_streamer
+    doc.add_root()
+TypeError: add_root() missing 1 required positional argument: 'model'
+2018-12-22 14:10:13,876 - logs/main.logs:15 - WARNING - logs/main.logs
+2018-12-22 14:10:16,601 - logs/main.logs:61 - ERROR - TABS:
+Traceback (most recent call last):
+  File "/home/andre/aion/data_science/bokeh/kafka_spark_streamer/main.py", line 59, in kafka_spark_streamer
+    doc.add_root()
+TypeError: add_root() missing 1 required positional argument: 'model'
+2018-12-30 12:29:32,703 - logs/main.logs:15 - WARNING - logs/main.logs
+2018-12-30 12:29:36,752 - logs/main.logs:61 - ERROR - TABS:
+Traceback (most recent call last):
+  File "/home/andre/aion/data_science/bokeh/kafka_spark_streamer/main.py", line 59, in kafka_spark_streamer
+    doc.add_root()
+TypeError: add_root() missing 1 required positional argument: 'model'
+2018-12-30 12:56:16,382 - logs/main.logs:15 - WARNING - logs/main.logs
+2018-12-30 12:56:17,943 - logs/main.logs:61 - ERROR - TABS:
+Traceback (most recent call last):
+  File "/home/andre/aion/data_science/bokeh/kafka_spark_streamer/main.py", line 59, in kafka_spark_streamer
+    doc.add_root()
+TypeError: add_root() missing 1 required positional argument: 'model'
+2018-12-30 16:17:20,956 - logs/main.logs:15 - WARNING - logs/main.logs
+2018-12-30 16:18:31,049 - logs/main.logs:15 - WARNING - logs/main.logs
+2018-12-30 16:18:33,501 - logs/main.logs:61 - ERROR - TABS:
+Traceback (most recent call last):
+  File "/home/andre/aion/data_science/bokeh/kafka_spark_streamer/main.py", line 59, in kafka_spark_streamer
+    doc.add_root()
+TypeError: add_root() missing 1 required positional argument: 'model'
+2018-12-30 16:28:00,100 - logs/main.logs:15 - WARNING - logs/main.logs
+2018-12-30 16:28:02,226 - logs/main.logs:61 - ERROR - TABS:
+Traceback (most recent call last):
+  File "/home/andre/aion/data_science/bokeh/kafka_spark_streamer/main.py", line 59, in kafka_spark_streamer
+    doc.add_root()
+TypeError: add_root() missing 1 required positional argument: 'model'
+2018-12-30 16:30:19,922 - logs/main.logs:15 - WARNING - logs/main.logs
+2018-12-30 16:30:22,320 - logs/main.logs:61 - ERROR - TABS:
+Traceback (most recent call last):
+  File "/home/andre/aion/data_science/bokeh/kafka_spark_streamer/main.py", line 59, in kafka_spark_streamer
+    doc.add_root()
+TypeError: add_root() missing 1 required positional argument: 'model'
+2018-12-30 16:34:24,426 - logs/main.logs:15 - WARNING - logs/main.logs
+2018-12-30 16:34:26,012 - logs/main.logs:61 - ERROR - TABS:
+Traceback (most recent call last):
+  File "/home/andre/aion/data_science/bokeh/kafka_spark_streamer/main.py", line 59, in kafka_spark_streamer
+    doc.add_root()
+TypeError: add_root() missing 1 required positional argument: 'model'
+2018-12-30 16:41:55,941 - logs/main.logs:15 - WARNING - logs/main.logs
+2018-12-30 16:41:58,198 - logs/main.logs:61 - ERROR - TABS:
+Traceback (most recent call last):
+  File "/home/andre/aion/data_science/bokeh/kafka_spark_streamer/main.py", line 59, in kafka_spark_streamer
+    doc.add_root()
+TypeError: add_root() missing 1 required positional argument: 'model'
+2018-12-30 16:44:39,920 - logs/main.logs:15 - WARNING - logs/main.logs
+2018-12-30 16:44:42,462 - logs/main.logs:61 - ERROR - TABS:
+Traceback (most recent call last):
+  File "/home/andre/aion/data_science/bokeh/kafka_spark_streamer/main.py", line 59, in kafka_spark_streamer
+    doc.add_root()
+TypeError: add_root() missing 1 required positional argument: 'model'
+2018-12-30 16:45:53,727 - logs/main.logs:15 - WARNING - logs/main.logs
+2018-12-30 16:45:56,064 - logs/main.logs:61 - ERROR - TABS:
+Traceback (most recent call last):
+  File "/home/andre/aion/data_science/bokeh/kafka_spark_streamer/main.py", line 59, in kafka_spark_streamer
+    doc.add_root()
+TypeError: add_root() missing 1 required positional argument: 'model'
+2018-12-30 16:47:05,892 - logs/main.logs:15 - WARNING - logs/main.logs
+2018-12-30 16:47:08,320 - logs/main.logs:61 - ERROR - TABS:
+Traceback (most recent call last):
+  File "/home/andre/aion/data_science/bokeh/kafka_spark_streamer/main.py", line 59, in kafka_spark_streamer
+    doc.add_root()
+TypeError: add_root() missing 1 required positional argument: 'model'
+2018-12-30 16:49:02,930 - logs/main.logs:15 - WARNING - logs/main.logs
+2018-12-30 16:49:05,165 - logs/main.logs:61 - ERROR - TABS:
+Traceback (most recent call last):
+  File "/home/andre/aion/data_science/bokeh/kafka_spark_streamer/main.py", line 59, in kafka_spark_streamer
+    doc.add_root()
+TypeError: add_root() missing 1 required positional argument: 'model'
+2018-12-30 16:50:42,023 - logs/main.logs:15 - WARNING - logs/main.logs
+2018-12-30 16:50:44,242 - logs/main.logs:61 - ERROR - TABS:
+Traceback (most recent call last):
+  File "/home/andre/aion/data_science/bokeh/kafka_spark_streamer/main.py", line 59, in kafka_spark_streamer
+    doc.add_root()
+TypeError: add_root() missing 1 required positional argument: 'model'
+2018-12-30 16:51:11,643 - logs/main.logs:15 - WARNING - logs/main.logs
+2018-12-30 16:51:14,324 - logs/main.logs:61 - ERROR - TABS:
+Traceback (most recent call last):
+  File "/home/andre/aion/data_science/bokeh/kafka_spark_streamer/main.py", line 59, in kafka_spark_streamer
+    doc.add_root()
+TypeError: add_root() missing 1 required positional argument: 'model'
+2018-12-30 16:55:48,019 - logs/main.logs:15 - WARNING - logs/main.logs
+2018-12-30 16:55:50,178 - logs/main.logs:61 - ERROR - TABS:
+Traceback (most recent call last):
+  File "/home/andre/aion/data_science/bokeh/kafka_spark_streamer/main.py", line 59, in kafka_spark_streamer
+    doc.add_root()
+TypeError: add_root() missing 1 required positional argument: 'model'
+2018-12-30 17:00:17,950 - logs/main.logs:15 - WARNING - logs/main.logs
+2018-12-30 17:00:20,059 - logs/main.logs:61 - ERROR - TABS:
+Traceback (most recent call last):
+  File "/home/andre/aion/data_science/bokeh/kafka_spark_streamer/main.py", line 59, in kafka_spark_streamer
+    doc.add_root()
+TypeError: add_root() missing 1 required positional argument: 'model'
+2018-12-30 17:01:26,745 - logs/main.logs:15 - WARNING - logs/main.logs
+2018-12-30 17:01:29,154 - logs/main.logs:61 - ERROR - TABS:
+Traceback (most recent call last):
+  File "/home/andre/aion/data_science/bokeh/kafka_spark_streamer/main.py", line 59, in kafka_spark_streamer
+    doc.add_root()
+TypeError: add_root() missing 1 required positional argument: 'model'
+2018-12-30 17:02:17,453 - logs/main.logs:15 - WARNING - logs/main.logs
+2018-12-30 17:02:19,582 - logs/main.logs:61 - ERROR - TABS:
+Traceback (most recent call last):
+  File "/home/andre/aion/data_science/bokeh/kafka_spark_streamer/main.py", line 59, in kafka_spark_streamer
+    doc.add_root()
+TypeError: add_root() missing 1 required positional argument: 'model'
+2018-12-30 17:13:48,894 - logs/main.logs:15 - WARNING - logs/main.logs
+2018-12-30 17:13:51,222 - logs/main.logs:61 - ERROR - TABS:
+Traceback (most recent call last):
+  File "/home/andre/aion/data_science/bokeh/kafka_spark_streamer/main.py", line 59, in kafka_spark_streamer
+    doc.add_root()
+TypeError: add_root() missing 1 required positional argument: 'model'
+2018-12-30 17:18:36,398 - logs/main.logs:15 - WARNING - logs/main.logs
+2018-12-30 17:18:38,804 - logs/main.logs:61 - ERROR - TABS:
+Traceback (most recent call last):
+  File "/home/andre/aion/data_science/bokeh/kafka_spark_streamer/main.py", line 59, in kafka_spark_streamer
+    doc.add_root()
+TypeError: add_root() missing 1 required positional argument: 'model'
+2018-12-30 17:23:01,401 - logs/main.logs:15 - WARNING - logs/main.logs
+2018-12-30 17:23:03,712 - logs/main.logs:61 - ERROR - TABS:
+Traceback (most recent call last):
+  File "/home/andre/aion/data_science/bokeh/kafka_spark_streamer/main.py", line 59, in kafka_spark_streamer
+    doc.add_root()
+TypeError: add_root() missing 1 required positional argument: 'model'
+2018-12-30 17:25:02,024 - logs/main.logs:15 - WARNING - logs/main.logs
+2018-12-30 17:25:04,217 - logs/main.logs:61 - ERROR - TABS:
+Traceback (most recent call last):
+  File "/home/andre/aion/data_science/bokeh/kafka_spark_streamer/main.py", line 59, in kafka_spark_streamer
+    doc.add_root()
+TypeError: add_root() missing 1 required positional argument: 'model'
+2018-12-30 17:30:51,951 - logs/main.logs:15 - WARNING - logs/main.logs
+2018-12-30 17:30:54,335 - logs/main.logs:61 - ERROR - TABS:
+Traceback (most recent call last):
+  File "/home/andre/aion/data_science/bokeh/kafka_spark_streamer/main.py", line 59, in kafka_spark_streamer
+    doc.add_root()
+TypeError: add_root() missing 1 required positional argument: 'model'
+2018-12-30 17:32:29,905 - logs/main.logs:15 - WARNING - logs/main.logs
+2018-12-30 17:32:32,255 - logs/main.logs:61 - ERROR - TABS:
+Traceback (most recent call last):
+  File "/home/andre/aion/data_science/bokeh/kafka_spark_streamer/main.py", line 59, in kafka_spark_streamer
+    doc.add_root()
+TypeError: add_root() missing 1 required positional argument: 'model'
+2018-12-30 18:17:22,809 - logs/main.logs:15 - WARNING - logs/main.logs
+2018-12-30 18:17:24,485 - logs/main.logs:61 - ERROR - TABS:
+Traceback (most recent call last):
+  File "/home/andre/aion/data_science/bokeh/kafka_spark_streamer/main.py", line 59, in kafka_spark_streamer
+    doc.add_root()
+TypeError: add_root() missing 1 required positional argument: 'model'
+2018-12-30 18:22:26,439 - logs/main.logs:15 - WARNING - logs/main.logs
+2018-12-30 18:22:28,103 - logs/main.logs:61 - ERROR - TABS:
+Traceback (most recent call last):
+  File "/home/andre/aion/data_science/bokeh/kafka_spark_streamer/main.py", line 59, in kafka_spark_streamer
+    doc.add_root()
+TypeError: add_root() missing 1 required positional argument: 'model'
+2018-12-30 18:27:52,113 - logs/main.logs:15 - WARNING - logs/main.logs
+2018-12-30 18:27:53,766 - logs/main.logs:61 - ERROR - TABS:
+Traceback (most recent call last):
+  File "/home/andre/aion/data_science/bokeh/kafka_spark_streamer/main.py", line 59, in kafka_spark_streamer
+    doc.add_root()
+TypeError: add_root() missing 1 required positional argument: 'model'
+2018-12-30 18:32:49,765 - logs/main.logs:15 - WARNING - logs/main.logs
+2018-12-30 19:13:55,970 - logs/main.logs:15 - WARNING - logs/main.logs
+2018-12-31 08:18:12,223 - logs/main.logs:15 - WARNING - logs/main.logs
+2018-12-31 08:30:28,501 - logs/main.logs:15 - WARNING - logs/main.logs
+2018-12-31 08:34:49,542 - logs/main.logs:15 - WARNING - logs/main.logs
+2018-12-31 08:35:27,584 - logs/main.logs:15 - WARNING - logs/main.logs
+2018-12-31 08:44:06,851 - logs/main.logs:15 - WARNING - logs/main.logs
+2018-12-31 08:45:28,193 - logs/main.logs:15 - WARNING - logs/main.logs
+2018-12-31 08:46:29,536 - logs/main.logs:15 - WARNING - logs/main.logs
+2018-12-31 08:49:58,748 - logs/main.logs:15 - WARNING - logs/main.logs
+2018-12-31 08:55:41,958 - logs/main.logs:15 - WARNING - logs/main.logs
+2018-12-31 09:12:57,208 - logs/main.logs:15 - WARNING - logs/main.logs
+2018-12-31 09:14:37,151 - logs/main.logs:15 - WARNING - logs/main.logs
+2018-12-31 09:23:03,549 - logs/main.logs:15 - WARNING - logs/main.logs
+2018-12-31 09:44:02,254 - logs/main.logs:15 - WARNING - logs/main.logs

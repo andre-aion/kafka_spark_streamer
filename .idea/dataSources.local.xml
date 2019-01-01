@@ -11,5 +11,14 @@
       <user-name>kafka</user-name>
       <introspection-schemas>*:@</introspection-schemas>
     </data-source>
+    <data-source name="aion@localhost" uuid="c809cd86-2f3a-4569-b310-5af8a51b14d5">
+      <database-info product="ClickHouse" version="0.42" jdbc-version="0.1" driver-name="ru.yandex.clickhouse-jdbc" driver-version="0.1" dbms="CLICKHOUSE" exact-version="18.16.1" exact-driver-version="0.1">
+        <identifier-quote-string>`</identifier-quote-string>
+      </database-info>
+      <case-sensitivity plain-identifiers="exact" quoted-identifiers="exact" />
+      <secret-storage>master_key</secret-storage>
+      <user-name>default</user-name>
+      <introspection-schemas>*:@</introspection-schemas>
+    </data-source>
   </component>
 </project>
